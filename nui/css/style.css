@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "FiraSans ";
+    src: url(../fonts/FiraSans-Black) url(../fonts/FiraSans-BlackItalic)  url(../fonts/FiraSans-Bold) url(../fonts/FiraSans-BoldItalic) url(../fonts/FiraSans-ExtraBold)  ;
+}
+
+.container{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vh;
+    height: 60vh;
+    border: none;
+    border-radius: 2vh;
+    background: radial-gradient(ellipse at top, #171628, transparent),
+    radial-gradient(ellipse at left, #aa186b, transparent), radial-gradient(ellipse at left, #aa186b, transparent),radial-gradient(ellipse at right, #aa186b, transparent);
+    box-shadow: rgba(0, 0, 0, 0.3) 0vh 0.3vh 5vh, rgba(0, 0, 0, 0.22) 0vh 0.7vh 1.5vh;
+    transform: translate(-50%, -50%);
+    
+}
+
+.close{
+
+    color:rgb(231, 231, 231);
+    background: linear-gradient(to top, #2d2d2f 0%,  #4b4b4e 100%);
+    margin:50px;
+    width: 100px;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px black solid;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0px;
+    left: 900px;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto
+}
+
+.grid-item{
+    margin-left: 100px;
+}
+
+.button{
+    color:rgb(231, 231, 231);
+    background: linear-gradient(to top, #2d2d2f 0%,  #4b4b4e 100%);
+    margin-top: 500px;
+    width: 200px;
+    height: 50px;
+    top: -40px;
+    border-radius: 30px; 
+    border: 1px black solid;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.auto{
+    width: 200px;
+    height: 150px;
+    top: 270px;
+    position: absolute;
+
+}
+.logo {
+    width: 150px; 
+    height: 150px;
+    position: absolute; 
+    top: 0px; 
+    left: 475px; 
+}
+
+.testobasso {
+    font-family:'FiraSans', sans-serif;
+    color:rgb(231, 231, 231);
+    width: 400px;
+    height: 150px;
+    position: absolute; 
+    top: 585px; 
+    left: 350px; 
+}
+
+.info{
+    width: 4vh;
+    opacity: 0.5;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px black;
+    background-color: #aa186b;
+    border-radius: 50%; 
+    transition: all .2s cubic-bezier(.215, .61, .355, 1);
+}
+
+.info{
+    cursor: pointer;
+    border: 0.2vh solid rgb(16, 2, 13);
+    transform: scale(1.2);
+    opacity: 1;
+    position: absolute;
+    top: 580px;
+    left: 275px;
+}
+
+
+.box{
+
+    width: 40vh;
+    height: 30vh;
+    border-radius: 3vh;
+    cursor: pointer;
+    border-radius: 10%; 
+    background-color: #aa186b;
+    position: absolute;
+    top: 180px;
+    left: 330px;
+}
+
+.benza{
+
+    width: 500px; 
+    color: azure;
+    height: 300px; 
+    position: absolute; 
+    top: 150px; 
+    left: 480px; 
+}
+
+  
+
+
